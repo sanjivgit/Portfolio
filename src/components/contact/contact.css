@@ -1,0 +1,120 @@
+.contact {
+  height: 100vh;
+  position: relative;
+}
+
+.contact-bg {
+  background-color: #ed622b;
+  width: 30px;
+  height: 100%;
+  position: absolute;
+}
+
+.contact-wrap {
+  display: flex;
+  padding: 50px;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 60px;
+  width: 80%;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  margin: 50px 0;
+  width: 70%;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+/******************* For Right ******************/
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-desc {
+  font-weight: 200;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 15px;
+  padding-left: 10px;
+  margin: 10px 0;
+  width: 50%;
+  height: 50px;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: #ed622b;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/******************** Media Quary *******************/
+@media screen and (max-width: 480px) {
+  .contact-wrap {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+
+  .contact-info-item {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .contact-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    margin: 10px;
+    margin-left: 0;
+  }
+}

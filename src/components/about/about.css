@@ -1,0 +1,79 @@
+.about {
+  height: 100vh;
+  display: flex;
+}
+
+.about-left {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-card.about-bg {
+  background-color: #333;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.about-card {
+  height: 70vh;
+  width: 60%;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/***************** For Right ******************/
+
+.about-right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-title {
+  font-weight: 400;
+}
+
+.about-sub {
+  margin: 20px 0;
+}
+
+.about-desc {
+  font-weight: 300;
+}
+
+/********************** Media Quary **********************/
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-left {
+    width: 100%;
+  }
+
+  .about-card {
+    height: 30vh;
+  }
+  .about-card.about-bg {
+    display: none;
+  }
+
+  .about-right {
+    padding: 20px;
+  }
+}

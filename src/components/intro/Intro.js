@@ -22,8 +22,7 @@ function Intro() {
             </div>
           </div>
           <p className="i-desc">
-            "I'm an independent creative developer from Jharkhand, India. I
-            build websites with a focus on responsive design and accessibility."
+            "I love to work with inspiring & creative organization and people."
           </p>
           <div className="downloadButton">
             <a href="sanjiv-resume.pdf" download="">

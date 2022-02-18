@@ -20,8 +20,8 @@ function About() {
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">
-          "I'm an independent creative developer from Jharkhand, India. I build
-          websites with a focus on responsive design and accessibility."
+          I'm an independent creative developer from Jharkhand, India. I build
+          websites with a focus on responsive design and accessibility.
         </p>
 
         <p className="about-desc">

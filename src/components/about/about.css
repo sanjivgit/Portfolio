@@ -49,10 +49,12 @@
 
 .about-sub {
   margin: 20px 0;
+  width: 90%;
 }
 
 .about-desc {
   font-weight: 300;
+  width: 90%;
 }
 
 /********************** Media Quary **********************/

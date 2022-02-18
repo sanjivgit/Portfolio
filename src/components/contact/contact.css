@@ -94,6 +94,10 @@ button {
     padding: 0 50px;
   }
 
+  .contact-bg {
+    height: 107%;
+  }
+
   .contact-title {
     font-size: 30px;
   }
@@ -111,6 +115,7 @@ button {
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
   }
 
   input {

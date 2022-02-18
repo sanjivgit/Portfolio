@@ -7,11 +7,11 @@ function ProductList() {
   return (
     <div className="pList">
       <div className="pList-texts">
-        <h1 className="pList-title">Lorem ipsum dolor sit amet.</h1>
+        <h1 className="pList-title">Projects</h1>
         <p className="pList-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-          similique tempora architecto quo blanditiis in quis dolores impedit
-          repellat cum.
+          These are the following self made projects made by me till now . I
+          worked and learned several WEB TECHNOLOGIES during making of these
+          Projects .
         </p>
       </div>
       <div className="pList-list">

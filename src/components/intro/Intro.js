@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./intro.css";
-import Me from "../../img/me.png";
+import Me from "../../img/sanjiv2.png";
 import { ThemeContext } from "../../context";
 
 function Intro() {
@@ -15,16 +15,40 @@ function Intro() {
           <div className="i-title">
             <div className="i-title-wrap">
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
+              <div className="i-title-item">Software Developer</div>
+              {/* <div className="i-title-item">UI/UX Designer</div>
               <div className="i-title-item">Content Creater</div>
-              <div className="i-title-item">Writer</div>
+              <div className="i-title-item">Writer</div> */}
             </div>
           </div>
           <p className="i-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            doloribus corporis est adipisci.
+            "I'm an independent creative developer from Jharkhand, India. I
+            build websites with a focus on responsive design and accessibility."
           </p>
+          <div className="downloadButton">
+            <a href="sanjiv-resume.pdf" download="">
+              <button className="documentDownload">
+                <i
+                  style={{ marginRight: "5px" }}
+                  class="bi bi-cloud-arrow-down-fill"
+                ></i>
+                Resume
+              </button>
+            </a>
+            <a href="#contactUs">
+              <button
+                className="contactButton"
+                style={{
+                  backgroundColor: darkMode && "white",
+                  color: darkMode ? "black" : "white",
+                }}
+              >
+                Contact Us
+              </button>
+            </a>
+          </div>
         </div>
+
         <svg
           width="75"
           height="75"

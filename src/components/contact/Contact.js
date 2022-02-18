@@ -3,6 +3,8 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
 import emailjs from "@emailjs/browser";
 import { ThemeContext } from "../../context";
 
@@ -32,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contactUs">
       <div className="contact-bg"></div>
       <div className="contact-wrap">
         <div className="contact-left">
@@ -40,23 +42,32 @@ function Contact() {
           <div className="contact-info">
             <div className="contact-info-item">
               <img className="contact-icon" src={Phone} alt="" />
-              +91 6254875965
+              +91 6202544517
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={Email} alt="" />
               sanjivhzb1234@gmail.com
             </div>
             <div className="contact-info-item">
+              <img className="contact-icon" src={Github} alt="" />
+              https://github.com/sanjivgit
+            </div>
+            <div className="contact-info-item">
+              <img className="contact-icon" src={LinkedIn} alt="" />
+              https://www.linkedin.com/in/sanjiv-kumar-96a414224/
+            </div>
+            <div className="contact-info-item">
               <img className="contact-icon" src={Address} alt="" />
-              25 krishna street, Near Vishal Megha Mart Hazaribagh 825301,
-              Jharkhand
+              Hazaribagh 825301, Jharkhand
             </div>
           </div>
         </div>
         <div className="contact-right">
           <p className="contact-desc">
-            <b>What's your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along me.
+            <b>What's your story?</b> Get in touch. I m available to work with
+            any software company which will lead my carrer to great heights . If
+            You Want to Contact me for hiring or having any issues please feel
+            free to contact me through the form below.
           </p>
           <form ref={formRef} onSubmit={handleClick}>
             <input

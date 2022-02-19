@@ -14,7 +14,7 @@ function Contact() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   const handleClick = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     emailjs
       .sendForm(
         "service_mv4r4l1",
@@ -38,7 +38,7 @@ function Contact() {
       <div className="contact-bg"></div>
       <div className="contact-wrap">
         <div className="contact-left">
-          <h1 className="contact-title">Let's discuss your projects</h1>
+          <h1 className="contact-title">Meet me</h1>
           <div className="contact-info">
             <div className="contact-info-item">
               <img className="contact-icon" src={Phone} alt="" />

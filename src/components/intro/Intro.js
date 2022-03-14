@@ -25,7 +25,7 @@ function Intro() {
             "I love to work with inspiring & creative organization and people."
           </p>
           <div className="downloadButton">
-            <a href="sanjiv-resume.pdf" download="">
+            <a href="sanjiv-s-resume.pdf" download="">
               <button className="documentDownload">
                 <i
                   style={{ marginRight: "5px" }}

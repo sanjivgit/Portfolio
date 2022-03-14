@@ -49,12 +49,28 @@ function Contact() {
               sanjivhzb1234@gmail.com
             </div>
             <div className="contact-info-item">
-              <img className="contact-icon" src={Github} alt="" />
-              https://github.com/sanjivgit
+              <img
+                className="contact-icon"
+                src={Github}
+                alt=""
+                style={{ backgroundColor: "white", borderRadius: "50%" }}
+              />
+
+              <a
+                href=" https://github.com/sanjivgit"
+                style={{ color: darkMode && "white" }}
+              >
+                https://github.com/sanjivgit
+              </a>
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={LinkedIn} alt="" />
-              https://www.linkedin.com/in/sanjiv-kumar-96a414224/
+              <a
+                href="https://www.linkedin.com/in/sanjiv-kumar-96a414224/"
+                style={{ color: darkMode && "white" }}
+              >
+                https://www.linkedin.com/in/sanjiv-kumar-96a414224/
+              </a>
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={Address} alt="" />

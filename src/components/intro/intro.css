@@ -20,6 +20,7 @@
 
 .documentDownload {
   padding: 10px 30px;
+  border-radius: 10px;
 }
 
 .documentDownload:hover {
@@ -34,6 +35,8 @@
 .contactButton {
   padding: 10px 30px;
   background-color: black;
+  border-radius: 10px;
+  /* margin-left: 20px; */
 }
 
 .contactButton:hover {
@@ -60,7 +63,7 @@
 }
 
 .i-title {
-  height: 50px;
+  min-height: 50px !important;
   overflow: hidden;
 }
 
@@ -159,10 +162,12 @@
   .documentDownload {
     margin-bottom: 20px;
     padding: 10px 50px;
+    border-radius: 10px;
   }
 
   .contactButton {
     margin-bottom: 20px;
     padding: 10px 50px;
+    border-radius: 10px;
   }
 }

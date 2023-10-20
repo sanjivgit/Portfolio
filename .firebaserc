@@ -1,5 +1,10 @@
 {
   "projects": {
-    "default": "sanjiv-s-portfolio"
-  }
+    "default": "sanjiv-s-portfolio-d7e12",
+    "production": "sanjiv-s-portfolio-d7e12",
+    "development": "sanjiv-s-portfolio-d7e12",
+    "staging": "sanjiv-s-portfolio-d7e12"
+  },
+  "targets": {},
+  "etags": {}
 }

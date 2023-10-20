@@ -46,7 +46,7 @@ function Contact() {
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={Email} alt="" />
-              sanjivhzb1234@gmail.com
+              sanjivkumarhzb1427@gmail.com
             </div>
             <div className="contact-info-item">
               <img
@@ -58,7 +58,7 @@ function Contact() {
 
               <a
                 href=" https://github.com/sanjivgit"
-                style={{ color: darkMode && "white" }}
+                style={{ color: darkMode ? "white" : "black", textDecoration: "none" }}
               >
                 https://github.com/sanjivgit
               </a>
@@ -67,7 +67,7 @@ function Contact() {
               <img className="contact-icon" src={LinkedIn} alt="" />
               <a
                 href="https://www.linkedin.com/in/sanjiv-kumar-96a414224/"
-                style={{ color: darkMode && "white" }}
+                style={{ color: darkMode ? "white" : "black", textDecoration: "none", }}
               >
                 https://www.linkedin.com/in/sanjiv-kumar-96a414224/
               </a>

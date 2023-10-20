@@ -5,6 +5,8 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
+import Work from "./components/work/Work";
+import Skill from "./components/skill/Skill";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -19,6 +21,8 @@ const App = () => {
       <Toggle />
       <Intro />
       <About />
+      <Work />
+      <Skill />
       <ProductList />
       <Contact />
     </div>

@@ -16,6 +16,7 @@ function Intro() {
             <div className="i-title-wrap">
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Software Developer</div>
+              <div className="i-title-item">FullStack Developer</div>
               {/* <div className="i-title-item">UI/UX Designer</div>
               <div className="i-title-item">Content Creater</div>
               <div className="i-title-item">Writer</div> */}
@@ -25,7 +26,7 @@ function Intro() {
             "I love to work with inspiring & creative organization and people."
           </p>
           <div className="downloadButton">
-            <a href="sanjiv-s-resume.pdf" download="">
+            {/* <a href="Sanjiv_Kumar_Resume.pdf" download="">
               <button className="documentDownload">
                 <i
                   style={{ marginRight: "5px" }}
@@ -33,7 +34,7 @@ function Intro() {
                 ></i>
                 Resume
               </button>
-            </a>
+            </a> */}
             <a href="#contactUs">
               <button
                 className="contactButton"

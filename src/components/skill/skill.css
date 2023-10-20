@@ -1,0 +1,12 @@
+.skill{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+
+.progress{
+    height: 3px !important;
+    border-radius: 5px;
+    background-color: #ed622b !important;
+}

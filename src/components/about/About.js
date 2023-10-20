@@ -23,15 +23,14 @@ function About() {
           I'm an independent creative developer from Jharkhand, India. I build
           websites with a focus on responsive design and accessibility.
         </p>
-
         <p className="about-desc">
-          A postgraduate pursuing MCA from Vinoba Bhave University Hazaribagh. I
-          am a passionate learner and like exploring new stuffs. I always wish
-          to indulge myself in optimal work to achieve my goal and i am
-          currently looking for a full stack developer job. I am fresher but I
-          do some projects using MERN. If anyone knows for full stack developer
-          where I would be a good fit, I appreciate it if you could send them my
-          way.
+          Hello! My name is Sanjiv, and I am a dedicated and passionate software developer with a Master of Computer Application degree. With a solid academic foundation and a year of hands-on experience as an intern, I have honed my skills in a range of technologies, including React.js, Node.js, Express.js, and MongoDB.
+        </p>
+        <p style={{ marginTop: "8px" }} className="about-desc">
+          During my year-long internship as a software developer, I had the privilege to work on projects that spanned the software development. I actively contributed to the development of web applications, gaining valuable insight into best practices and collaboration techniques. My responsibilities included developing responsive user interfaces using React.js, creating server-side logic with Node.js and Express.js, and designing and managing databases using MongoDB. These experiences have equipped me with a deep understanding of how to create efficient, scalable, and user-friendly applications.
+        </p>
+        <p style={{ marginTop: "8px" }} className="about-desc">
+          I am deeply committed to staying up-to-date with the latest advancements in software development. I actively engage with online communities, attend webinars, and explore new tools and technologies to enhance my skill set. My dedication to continuous learning reflects my eagerness to evolve alongside the rapidly changing tech landscape.
         </p>
       </div>
     </div>

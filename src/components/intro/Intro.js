@@ -26,7 +26,7 @@ function Intro() {
             "I love to work with inspiring & creative organization and people."
           </p>
           <div className="downloadButton">
-            {/* <a href="Sanjiv_Kumar_Resume.pdf" download="">
+            <a href="Sanjiv_Kumar_Resume.pdf" download="">
               <button className="documentDownload">
                 <i
                   style={{ marginRight: "5px" }}
@@ -34,7 +34,7 @@ function Intro() {
                 ></i>
                 Resume
               </button>
-            </a> */}
+            </a>
             <a href="#contactUs">
               <button
                 className="contactButton"

@@ -20,32 +20,15 @@ function About() {
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">
-          I'm an independent creative developer from Jharkhand, India. I build
-          websites with a focus on responsive design and accessibility.
+          I'm a dedicated full-stack developer based in Jharkhand, India, with a
+          Master's in Computer Application. I specialize in building robust and
+          scalable web applications using React.js, Next.js, and Node.js.
         </p>
         <p className="about-desc">
-          I am a dedicated software developer based in Jharkhand, India, with a
-          Master of Computer Application degree from Vinoba Bhave University.
-          With over a year of experience, I specialize in full-stack
-          development, with a focus on creating responsive and accessible web
-          and mobile applications. My expertise includes a strong command of
-          React.js, Next.js, and React Native for frontend development and
-          Node.js, Express.js, and PostgreSQL for backend systems.
-        </p>
-        <p style={{ marginTop: "8px" }} className="about-desc">
-          Throughout my career, I've contributed to a variety of projects, from
-          engineering the frontend of an in-chat e-commerce app to developing
-          APIs that streamline assessment and evaluation systems. At SHOECAB
-          PVT. LTD, I optimized product catalog modules, which reduced product
-          management time by 40%. At Aadrika Enterprises, I developed
-          interactive dashboards to visualize financial data and budget reports
-        </p>
-        <p style={{ marginTop: "8px" }} className="about-desc">
-          I am deeply committed to staying up-to-date with the latest
-          advancements in software development. I actively engage with online
-          communities, attend webinars, and explore new tools and technologies
-          to enhance my skill set. My dedication to continuous learning reflects
-          my eagerness to evolve alongside the rapidly changing tech landscape.
+          With strong command of both front-end and back-end technologies, I
+          focus on creating intuitive user interfaces and efficient server-side
+          logic. My goal is to build comprehensive, high-performance solutions
+          that solve real-world problems.
         </p>
       </div>
     </div>

@@ -1,5 +1,20 @@
 export const products = [
   {
+    id: 1001,
+    img: "hiee-one-shop.png",
+    link: "https://sanjiv.hiee.shop/",
+  },
+  {
+    id: 1002,
+    img: "foodnutrition-app.png",
+    link: "https://foodnutrition.chutmarika.ddnsfree.com/docs#/image/image_classify_api_v1_image_classify_post",
+  },
+  {
+    id: 1003,
+    img: "hire-app.png",
+    link: "https://play.google.com/store/apps/details?id=com.ridhi.solution",
+  },
+  {
     id: 1,
     img: "facebook.png",
     link: "https://sanjiv-facebook.web.app/",

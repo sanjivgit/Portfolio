@@ -171,3 +171,15 @@
     border-radius: 10px;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 804px) {
+  .documentDownload {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 804px) {
+  .documentDownload {
+    margin-right: 10px;
+  }
+}

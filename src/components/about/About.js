@@ -20,15 +20,40 @@ function About() {
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">
-          I'm a dedicated full-stack developer based in Jharkhand, India, with a
-          Master's in Computer Application. I specialize in building robust and
-          scalable web applications using React.js, Next.js, and Node.js.
+          Full-Stack Developer with 3+ years of experience in building scalable
+          web and mobile applications. Skilled in React.js, Next.js, React
+          Native, Node.js, Express.js, PostgreSQL, MongoDB, and tools like
+          Docker, Redis, RabbitMQ, and Prisma ORM.
         </p>
         <p className="about-desc">
-          With strong command of both front-end and back-end technologies, I
-          focus on creating intuitive user interfaces and efficient server-side
-          logic. My goal is to build comprehensive, high-performance solutions
-          that solve real-world problems.
+          I have contributed to projects such as an in-chat e-commerce platform,
+          a receipt & budget management system, and an AI-powered food
+          classifier API using FastAPI & Hugging Face.
+        </p>
+        <p className="about-desc">
+          Passionate about clean architecture, problem-solving, and AI
+          integration, with a strong learning mindset and ability to adapt
+          quickly to new technologies.
+        </p>
+        <p className="about-desc">
+          My core stack includes: React.js, React Native, Redux, Next.js,
+          JavaScript (ES6+), TypeScript, HTML/CSS, Tailwind CSS, Material UI,
+          RESTful APIs, GraphQL, NodeJs, Express.Js, Postgresql, MongoDB, gRPC,
+          RabbitMQ, Redis, JWT Auth, Git/GitHub.
+        </p>
+        <p className="about-desc">
+          I'm currently looking for a new Full-Stack Developer role where I can
+          bring my skills in React/Next js, Nodejs/Expressjs and performance
+          optimization to an innovative team and continue to learn and grow.
+          <br />
+          Feel free to reach out – I'd love to chat! <br /> 📧
+          sanjiv2101@gmail.com <br /> 🔗 Portfolio:
+          https://sanjiv-s-portfolio-d7e12.web.app/ <br />
+          🐙 GitHub: https://github.com/sanjivgit
+        </p>
+        <p className="about-sub">
+          #ReactJS #Frontend #JavaScript #TypeScript #NextJS #WebDeveloper
+          #Performance #UIUX #TechJobs #OpenToWork
         </p>
       </div>
     </div>
